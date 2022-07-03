@@ -1,0 +1,37 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sculk_catalyst"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "loot_table",
+            "name": "soul_link:soul_linker",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "from_warden"
+                  },
+                  "score": "settings"
+                },
+                "range": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
