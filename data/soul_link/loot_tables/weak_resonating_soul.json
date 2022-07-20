@@ -5,13 +5,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:echo_shard",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Resonating Soul",
-                  "color": "dark_purple",
+                  "text": "Weak Resonating Soul",
+                  "color": "light_purple",
                   "italic": false
                 }
               },
@@ -19,18 +19,8 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "Soul Link",
+                    "text": "Weak Soul Link X",
                     "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "Throw it on the enchantment table along with",
-                    "color": "dark_gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "another item to enchant for soul link.",
-                    "color": "dark_gray",
                     "italic": false
                   }
                 ],
@@ -38,7 +28,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Custom: {soul_linker: true, soul_link: true, lvl: 1}, CustomModelData: 1, HideFlags: 1}"
+                "tag": "{Custom: {soul_link: {soul_linker: true, lvl: 10}}, CustomModelData: 1, HideFlags: 1}"
               },
               {
                 "function": "minecraft:set_enchantments",

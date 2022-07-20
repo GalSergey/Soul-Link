@@ -1,0 +1,1 @@
+tp @e[type=minecraft:item,tag=linked] 0 0 0
